@@ -66,3 +66,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### fixed IE 11 and Edge
+
+`react-script` version back to 3.2.0 and delete folder **node_modules**, then please run `npm install` and `yarn start` , the project will be start wilthout error in **ie11**
