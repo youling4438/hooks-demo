@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Name from "./Name";
 import Age from "./Age";
+import Developer from "./Developer";
 function App() {
     const [count, setCount] = useState(0);
     return (
@@ -17,6 +18,7 @@ function App() {
                 </button>
                 <Name />
                 <Age />
+                <Developer />
             </div>
         </div>
     );
